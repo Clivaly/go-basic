@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-basic/17-linha-de-comando/app"
+	"linha-de-comando/app"
 )
 
 func main() {
