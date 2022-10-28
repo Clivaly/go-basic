@@ -22,9 +22,9 @@ func Gerar() *cli.App {
 
 	app.Commands = []cli.Command{
 		{
-			Name:  "ip",
-			Usage: "Busca de IPs de endereços na internet",
-			Flags: flags,
+			Name:   "ip",
+			Usage:  "Busca de IPs de endereços na internet",
+			Flags:  flags,
 			Action: searchIps,
 		},
 		{
